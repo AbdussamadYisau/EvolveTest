@@ -1,3 +1,86 @@
 * {
     margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+@media(min-width:900px) {
+    .navContent {
+        display: flex;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .navContentDiv {
+        display: flex;
+        margin-left: 20px;
+        align-items: center;
+    }
+
+    .navContentDiv img {
+        margin-top: 2px;
+        margin-right: 10px;
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    .navContentDiv a {
+        color: white;
+    }
+
+    header {
+        margin-top: 10px;
+        display: flex;
+        border-bottom: 0.5px solid #828282
+        /* justify-content: space-around; */
+    }
+
+    .headerDivs {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 12px 0;
+    }
+
+    .headerDivs  input {
+
+        border-radius: 5px;
+        font-size: 13px;
+        color: #828282;
+        width: 30%;
+        height: 45px;
+        text-align: center;
+    }
+
+    .navActions {
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+
+    .navActions .login, .navActions .list, .navActions .cart {
+        margin-right: 20px;
+    }
+
+    .navActions .login img , .navActions .list img, .navActions .cart img{
+        vertical-align: middle;
+    }
+
+    .navActions .login span, .navActions .list span, .navActions .cart span {
+        font-size: 12px;
+        /* padding-right: 250px; */
+        color:black;
+        display: block;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
 }
