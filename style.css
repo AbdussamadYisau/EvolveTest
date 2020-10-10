@@ -40,7 +40,7 @@ nav {
     header {
         margin-top: 10px;
         display: flex;
-        border-bottom: 0.5px solid #828282
+        border-bottom: 0.5px solid #828282;
         /* justify-content: space-around; */
     }
 
@@ -81,6 +81,7 @@ nav {
         color:black;
         display: block;
         font-weight: 600;
+        text-align: center;
         text-transform: uppercase;
     }
 }
