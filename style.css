@@ -84,4 +84,23 @@ nav {
         text-align: center;
         text-transform: uppercase;
     }
+
+    .beforeHero {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+    .beforeHero p {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-style: normal;
+        align-items: center;
+        color: #4F4F4F;
+    }
+
+    .beforeHero .golden {
+        color: #F4811F;
+    }
 }
