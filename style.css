@@ -69,6 +69,7 @@ nav {
 
     .navActions .login, .navActions .list, .navActions .cart {
         margin-right: 20px;
+        text-align: center;
     }
 
     .navActions .login img , .navActions .list img, .navActions .cart img{
@@ -76,12 +77,10 @@ nav {
     }
 
     .navActions .login span, .navActions .list span, .navActions .cart span {
-        font-size: 12px;
-        /* padding-right: 250px; */
+        font-size: 11px;
         color:black;
         display: block;
         font-weight: 600;
-        text-align: center;
         text-transform: uppercase;
     }
 
