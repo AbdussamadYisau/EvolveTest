@@ -115,7 +115,7 @@ nav {
 #innerhero{
     background-color: white;
     color: black;
-    width: 364px;
+    width: 300px;
     height: 252px;
     border-radius: 10px;
     padding: 15px;
@@ -124,7 +124,22 @@ nav {
     position: relative;
     top: 176px;
     bottom: 176px;
-    left: 120px;
+    /* left: 120px; */
+}
+
+#innerhero h3 {
+    font-weight: 600; 
+    width: 306px; 
+    height: 32px; 
+    font-size: 16px;
+}
+
+.innerheroP {
+    margin-top: 20px; 
+    font-size: 14px; 
+    line-height: 27px; 
+    /* width: 344px;  */
+    height: 77px;
 }
 
 .shopDiv, .popCategories {
@@ -518,6 +533,21 @@ nav {
         top: 176px;
         bottom: 176px;
         left: 120px;
+    }
+
+    #innerhero h3 {
+        font-weight: 600; 
+        width: 306px; 
+        height: 32px; 
+        font-size: 24px;
+    }
+
+    .innerheroP {
+        margin-top: 20px; 
+        font-size: 18px; 
+        line-height: 27px; 
+        width: 344px; 
+        height: 77px;
     }
 
 
