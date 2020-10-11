@@ -1,7 +1,12 @@
-* {
+/** {
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+}*/
+
+body,html, main {
+    height: 100%;
+    margin: 0;
 }
 
 nav {
@@ -12,6 +17,7 @@ nav {
 }
 
 @media(min-width:900px) {
+    
     .navContent {
         display: flex;
         padding-right: 15px;
@@ -102,4 +108,24 @@ nav {
     .beforeHero .golden {
         color: #F4811F;
     }
+
+    #hero{
+        background-image: url('./assets/chandelierBackground.png');
+        background-repeat: no-repeat;
+        height:100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #innerhero{
+        background-color: white;
+        width: 364px;
+        height: 252px;
+        border-radius: 10px;
+        padding: 15px;
+        position: relative;
+        top: 230px;
+        left: 190px;
+    }
 }
+
