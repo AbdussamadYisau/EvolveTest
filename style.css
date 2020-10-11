@@ -119,6 +119,7 @@ nav {
 
     #innerhero{
         background-color: white;
+        color: black;
         width: 364px;
         height: 252px;
         border-radius: 10px;
@@ -128,6 +129,8 @@ nav {
         bottom: 176px;
         left: 120px;
     }
+
+
 
     .shopDiv, .popCategories {
         margin-left: 128px;
@@ -276,7 +279,7 @@ nav {
         padding-bottom: 50px;
         padding-left: 90px;
         padding-right:90px;
-        margin-top: 12px;
+        margin-top: 40px;
 
     }
 
@@ -291,10 +294,10 @@ nav {
         
       }
 
-      #flex_footer > div, h3, ul, li{
+      #flex_footer > div, #flex_footer > h3, #flex_footer > ul, #flex_footer > li{
         color:white;
       }
-      #flex_footer > div, li{
+      #flex_footer > div, #flex_footer > li{
         margin:6px;
       }
 
