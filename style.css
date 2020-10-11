@@ -268,26 +268,30 @@ nav {
     }
 
     .mailSubscription {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* gap: 200px; */
-        margin-left: 50px;
-        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+        margin-left: 128px;
+        margin-right: 128px;
         margin-top: 40px;
-        background-color: #F2F2F2;
-
+        
     }
 
     .mailSubscription .mailSublist {
-        margin-left: 20px;
-        width: 400px ;
-        height: 200px;
+        width: 500px ;
+        height: 320px;
+        background-color: #F2F2F2;
+
     }
 
     .mailSubscription .mailSublist p {
         font-size: 14px;
         margin-top: 40px;
+        margin-left: 20px;
         width: 288px;
+    }
+
+    .mailSubscription .mailSublist img, .mailSubscription .mailSublist input, .mailSubscription .mailSublist button {
+        margin-left: 20px;
     }
 
     .mailSubscription .mailSublist input {
